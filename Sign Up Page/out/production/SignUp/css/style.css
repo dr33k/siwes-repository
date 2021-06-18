@@ -1,0 +1,28 @@
+.background{
+    -fx-background-color: white;
+}
+
+.tfield{
+    -fx-background-color: white;
+    -fx-border-radius: 20 20 20 20;
+    -fx-border-color: #bdbdbd;
+}
+
+.sign-up-button{
+        -fx-background-color: #bdbdbd;
+        -fx-color:white;
+        -fx-border-radius:20px;
+        -fx-text-decoration: none;
+        -fx-display:inline-block;
+        -fx-transition-duration: -fx-background-color, 1s, ease-in, 0s;
+    }
+
+.tfield:hover, .tfield:focused{
+-fx-border-color: red;
+}
+
+.sign-up-button:hover{
+ -fx-background-color: red;
+}
+
+
